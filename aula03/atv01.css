@@ -1,0 +1,37 @@
+#div1{
+background-color: lightpink;
+height: 200px;
+width: 1500px;
+text-align: center;
+font-size: 50px;
+padding-top: 100px;
+
+}
+#div2{
+background-color: hsl(300, 76%, 72%);
+height: 200px;
+width: 1500px;
+text-align: center;
+font-size: 50px;
+padding-top: 100px;
+
+}
+#div3{
+background-color: plum;
+height: 200px;
+width: 1500px;
+text-align: center;
+font-size: 50px;
+padding-top: 100px;
+
+}
+
+#div4{
+background-color: rgba(226, 101, 153, 100);
+height: 200px;
+width: 1500px;
+text-align: center;
+font-size: 50px;
+padding-top: 100px;
+
+}
