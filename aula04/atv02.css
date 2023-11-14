@@ -1,0 +1,31 @@
+*{
+margin: 0;
+}
+
+div{
+background-color: rgb(255, 149, 165);
+font-size: 45px;
+}
+
+#cabecalho{
+opacity: 0;
+width: 1fr; height: 105px;
+opacity: 0.5;
+border: 3px solid;
+background: url("img01.png") no-repeat scroll right rgb(255, 92, 119);
+
+
+}
+
+#corpo{
+    border: 3px solid;
+    margin: 25px 50px;
+    width: 300px; 
+    text-align: center;
+}
+
+#conteudo{
+    width: 1fr;
+    height: 100vh;
+
+}
