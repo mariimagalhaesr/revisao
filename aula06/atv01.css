@@ -1,0 +1,30 @@
+.box{
+    background-color: rgb(225, 168, 253);
+    height: 800px;
+    display: grid;
+    grid-template-areas: "mariana muito"
+                         "linda magalhaes";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 200px 1fr;
+}
+
+.mariana{
+    background-color: blueviolet;
+    grid-area: mariana;
+}
+
+.magalhaes{
+    background-color: mediumslateblue;
+    grid-area: magalhaes;
+}
+
+.muito{
+    background-color: rgb(192, 161, 255);
+    grid-area: muito;
+
+}
+
+.linda{
+    background-color: rebeccapurple;
+    grid-area: linda;
+}

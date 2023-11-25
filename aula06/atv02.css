@@ -1,0 +1,30 @@
+.box{
+    background-color: lightblue;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+                         "menul conteudo menur"
+                         "rodape rodape rodape";
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 400px 400px;
+}
+
+.titulo{
+    background-color: lightcyan;
+    grid-area: titulo;
+}
+
+.conteudo{
+    background-color: rgb(174, 218, 246);
+    grid-area: conteudo;
+}
+
+.menul{
+    background-color: rgb(133, 205, 205);
+    grid-area: menul;
+}
+
+.menur{
+    background-color: rgb(150, 181, 255);
+    grid-area: menur;
+}
