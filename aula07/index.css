@@ -1,0 +1,49 @@
+.box {
+    grid-template-areas: "cabeca cabeca cabeca"
+                         "menu principal menur"
+                         "menu rodape rodape";
+    grid-template-columns: 225px auto 450px;
+    display: grid;
+    background-color: rgb(122, 122, 255);
+}
+
+.cabeca {
+    background-color: lightblue;
+    grid-area: cabeca;
+    height: 100px;
+    width: 1330px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.menu {
+    background-color: lightblue;
+    grid-area: menu;
+    height: 225px;
+    margin-left: 10px;
+    margin: 10px;
+}
+.menur{
+    background-color: lightblue;
+    grid-area: menur;
+    height: 100px;
+    margin-right: 10px;
+    margin: 10px;
+}
+.rodape {
+    background-color: lightblue;
+    grid-area: rodape;
+    height: 100px;
+    margin-right: 10px;
+    margin: 10px;
+}
+.principal {
+    background-color: lightblue;
+    grid-area: principal;
+    height: 100px;
+    margin: 10px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
