@@ -1,0 +1,114 @@
+.box{ 
+   display: grid;
+   grid-template-areas: "t t t"
+                        "l co r"
+                        "ro ro ro";
+   grid-template-columns: 100px 1fr 200px;
+   grid-template-rows: 70px 600px 70px;
+}
+
+.t{
+    background-color: deeppink;
+    grid-area: t;
+}
+
+.l{
+    background-color: magenta;
+    grid-area: l;
+    display: grid;
+    grid-template-areas: "ce1"
+                         "ce2" 
+                         "ce3";
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.l .ce1{
+    background-color: blueviolet;
+    grid-area: ce1;
+}
+
+.l .ce2{
+    background-color: darkorchid;
+    grid-area: ce2;
+}
+
+.l .ce3{ 
+    background-color: darkmagenta;
+    grid-area: ce3;
+}
+
+
+.co{
+    background-color: rgb(215, 89, 152);
+    grid-area: co;
+}
+
+.r{
+    background-color: mediumorchid;
+    grid-area: r;
+    display: grid;
+    grid-template-areas: "cd1 cd2"
+                         "cd3 cd4"
+                         "cd5 cd6"
+                         "cd7 cd8";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.r .cd1{
+    background-color: darkorchid;
+    grid-area: cd1;
+}
+
+.r .cd2{
+    background-color: darkmagenta;
+    grid-area: cd2;
+}
+
+.r .cd3{
+    background-color: rgb(208, 20, 255);
+    grid-area: cd3;
+}
+
+.r .cd4{
+    background-color: mediumvioletred;
+    grid-area: cd4;
+}
+
+.r .cd5{
+    background-color: fuchsia;
+    grid-area: cd5;
+}
+
+.r .cd6{
+    background-color: violet;
+    grid-area: cd6;
+}
+
+.r .cd7{
+    background-color: blueviolet;
+    grid-area: cd7;
+}
+
+.r .cd8{
+    background-color: rgb(210, 0, 210);
+    grid-area: cd8;
+}
+
+.r .cd6 p{
+    background-color: gainsboro;
+}
+
+.r p{
+    background-color: lightskyblue;
+}
+
+.r .cd1 p{
+    background-color: lavender;
+} 
+
+.ro{
+    background-color: mediumvioletred;
+    grid-area: ro;
+}
+
