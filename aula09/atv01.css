@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas: "cabeca cabeca cabeca"
+                         "conteudo conteudo lateral"
+                         "rodape rodape rodape";
+    grid-template-rows: 100px 500px 100px;
+    grid-template-columns: 100px 1fr 200px;
+}
+
+.cabeca{
+    grid-area: cabeca;
+    background-color: steelblue;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-color: rgb(255, 150, 166);
+    display: flex;
+    flex-direction: column;
+}
+
+.c1, .c2, .c3{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 33.33%;
+}
+
+.c2{
+    background-color: lightskyblue;
+}
+
+.lateral{
+    grid-area: lateral;
+    background-color: midnightblue;
+}
+.rodape{
+    grid-area: rodape;
+    background-color: lightblue;
+    display: flex;
+}
+
+.p1, .p2, .p3{
+    background-color: darkblue;
+    width: 33.33%;
+    height: 100%;
+}
+
+.p2{
+    background-color: darkslateblue;
+}
